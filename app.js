@@ -120,7 +120,7 @@ function listMajors(auth) {
       for (var i = 0; i < rows.length; i++) {
         var row = rows[i];
         // Print columns A and E, which correspond to indices 0 and 4.
-        console.log('%s, %s', row[0], row[4]);
+        console.log('%s, %s', row[0], row[1]);
       }
     }
   });
